@@ -16,18 +16,18 @@ clients:
 4. Baixar o winsw ideal para o SO e colocar na mesma pasta do Promtail, podendo usar o do repositorio ou pelo link abaixo:
 https://github.com/winsw/winsw/releases
 
-5. Criar um diretotio "logs" dentro do diretorio do Promtail
+<h2> 5. Criar um diretotio "logs" dentro do diretorio do Promtail </h2>
 
-6. Criar um arquivo chamado "promtail-service.xml", podendo usar o mesmo do repositorio
+<h2> 6. Criar um arquivo chamado "promtail-service.xml", podendo usar o mesmo do repositorio </h2>
 
-7. Com CMD ir ate o diretorio do promtail
-# cd C:\Program Files\promtail
+<h2> 7. Com CMD ir ate o diretorio do promtail </h2>
+<code>cd C:\Program Files\promtail</code>
 
-8. Instalar o serviço promtail
-# .\promtail-service.exe install
+<h2> 8. Instalar o serviço promtail </h2>
+<code>.\promtail-service.exe install</code>
 
-9. Startar o serviço
-# .\promtail-service.exe start
+<h2> 9. Startar o serviço </h2>
+<code>.\promtail-service.exe start</code>
 
 <h2> 10. Verificar o status </h2>
 <code> .\promtail-service.exe status </code>
