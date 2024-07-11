@@ -1,0 +1,12 @@
+<service>
+  <id>Promtail</id>
+  <name>Promtail</name>
+  <description>Promtail</description>
+  <executable>C:\Program Files\promtail\promtail-windows-amd64.exe</executable>
+  <arguments>"--config.file=C:\Program Files\promtail\promtail-local-config.yaml"</arguments>
+  <logpath>C:\Program Files\promtail\logs</logpath>
+  <log mode="roll-by-time">
+    <pattern>yyyyMMdd.log</pattern>
+  </log>
+  <sleepTime>5000</sleepTime> <!-- 5 seconds -->
+</service>
