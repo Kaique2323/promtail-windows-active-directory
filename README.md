@@ -10,8 +10,8 @@ https://github.com/grafana/loki/releases/download/v3.1.0/promtail-linux-arm64.zi
 <h2> 3. Criar um arquivo chamado "promtail-local-config.yaml", copiando o do repositorio aqui. </h2>
 Se lembrando de alterar esse trecho:
 
-<code>clients:
-  - url: http://seu.loki.com.br:10060/loki/api/v1/push</code>
+<p>clients:</p>
+ <p> - url: http://seu.loki.com.br:10060/loki/api/v1/push</p>
 
 <h2> 4. Baixar o winsw ideal para o SO e colocar na mesma pasta do Promtail, podendo usar o do repositorio ou pelo link abaixo: </h2>
 https://github.com/winsw/winsw/releases
