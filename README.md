@@ -30,7 +30,7 @@ https://github.com/winsw/winsw/releases
 # .\promtail-service.exe start
 
 10. Verificar o status
-<body> .\promtail-service.exe status </body>
+<code> .\promtail-service.exe status </code>
 
 
 
