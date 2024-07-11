@@ -29,7 +29,7 @@ https://github.com/winsw/winsw/releases
 9. Startar o serviço
 # .\promtail-service.exe start
 
-10. Verificar o status
+<h1> 10. Verificar o status </h1>
 <code> .\promtail-service.exe status </code>
 
 
