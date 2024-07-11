@@ -1,19 +1,19 @@
-# promtail-windows-active-directory
-Criando um serviço promtail no windows, para ler logs do Active Directory
+<h1> promtail-windows-active-directory </h1>
+<h2> Criando um serviço promtail no windows, para ler logs do Active Directory </h2>
 
 
-1. Criar um diretorio parar o Promtail podendo ser do C:\ ou como no exmplo C:\Program Files.
+<h2> 1. Criar um diretorio parar o Promtail podendo ser do C:\ ou como no exmplo C:\Program Files. </h2>
 
-2. Baixar o Promtail e descompactar podendo usar o link abaixo:
+<h2> 2. Baixar o Promtail e descompactar podendo usar o link abaixo: </h2>
 https://github.com/grafana/loki/releases/download/v3.1.0/promtail-linux-arm64.zip
 
-3. Criar um arquivo chamado "promtail-local-config.yaml", copiando o do repositorio aqui.
+<h2> 3. Criar um arquivo chamado "promtail-local-config.yaml", copiando o do repositorio aqui. </h2>
 Se lembrando de alterar esse trecho:
 
-clients:
-  - url: http://seu.loki.com.br:10060/loki/api/v1/push
+<code>clients:
+  - url: http://seu.loki.com.br:10060/loki/api/v1/push</code>
 
-4. Baixar o winsw ideal para o SO e colocar na mesma pasta do Promtail, podendo usar o do repositorio ou pelo link abaixo:
+<h2> 4. Baixar o winsw ideal para o SO e colocar na mesma pasta do Promtail, podendo usar o do repositorio ou pelo link abaixo: </h2>
 https://github.com/winsw/winsw/releases
 
 <h2> 5. Criar um diretotio "logs" dentro do diretorio do Promtail </h2>
